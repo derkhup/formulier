@@ -1,16 +1,16 @@
 <html>
     <head>
-     
-        <title>Form</title>
+
+        <title>Form</title>      
    
     </head>
     <body>
-        <p> <h2>Registrate</h2>
+        <p> <h2>Registration</h2>
         <table> 
             <tr>
                 <td  
                     <p><h4>Your Info</h4></p>
-                    <form action="action_page.php" method="GET">
+                    <form action="formtest2.php" method="GET">
                         
                         First name: <input type="text" name="FirstName" value="" required><br>
                         Last name: <input type="text" name="LastName" value="" required><br><br>
@@ -22,7 +22,7 @@
                         Zipcode <input type="text" name="Zipcode" value=""><br>
                         City    <input type="text" name="City" value="" required><br><br>
                     
-                        E-mail: <input type="email" name="usermail" required>                                      
+                        E-mail: <input type="email" name="usermail" required> <br>  <br> <br>                             
                         <input type="submit" value="Submit"><br>       
                     </form>
                 </td>
