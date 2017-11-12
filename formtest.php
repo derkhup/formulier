@@ -1,15 +1,22 @@
 <html>
+    <center>
     <head>
 
-        <title>Form</title>      
-   
+        <title>Form</title> 
+        
+        <link rel="stylesheet" type="text/css" href="formStyle.css">
     </head>
+    
     <body>
-        <p> <h2>Registration</h2>
+      <img src="download.png">
+
+        
+        <p> <h2>Registration</h2> 
+  
         <table> 
             <tr>
                 <td  
-                    <p><h4>Your Info</h4></p>
+                    <p><h4><br>Your Info</h4></p>
                     <form action="formtest2.php" method="GET">
                         
                         First name: <input type="text" name="FirstName" value="" required><br>
@@ -23,7 +30,7 @@
                         City    <input type="text" name="City" value="" required><br><br>
                     
                         E-mail: <input type="email" name="usermail" required> <br>  <br> <br>                             
-                        <input type="submit" value="Submit"><br>       
+                        <center> <input type="submit" value="Submit"> </center><br>       
                     </form>
                 </td>
             </tr>  
