@@ -9,7 +9,7 @@
     <body>
         <?php
             
-            $fname=$_GET['FirstName']; 
+            $fname=$_GET['FirstName'];            
             $lname=$_GET['LastName'];
             $gender=$_GET['Gender'];
             $DateOfBirth=$_GET['DateOfBirth'];
@@ -17,7 +17,8 @@
             $Zipcode=$_GET['Zipcode'];
             $City=$_GET['City'];
             $usermail=$_GET['usermail'];
-                
+            $cars=$_GET['cars'];
+             
         $handle = fopen('wegotitfromhere.txt','a');
            
             fwrite($handle,'FIRSTNAME     : '.$fname."\n");
@@ -27,8 +28,8 @@
             fwrite($handle,'STREETNAME    : '.$Street."\n");
             fwrite($handle,'ZIPCODE       : '.$Zipcode."\n");
             fwrite($handle,'CITY          : '.$City."\n");
+            fwrite($handle,'CARS          : '.$cars."\n");
             fwrite($handle,'EMAIL         : '.$usermail."\n");
-            fwrite($handle,'-----------------------------------------'."\n");
         fclose($handle);
         
         echo "Thanks for your registration, we will contact you soon.";

@@ -28,7 +28,15 @@
                         Street  <input type="text" name="Street" value="" required><br>
                         Zipcode <input type="text" name="Zipcode" value=""><br>
                         City    <input type="text" name="City" value="" required><br><br>
-                    
+                        
+                        Welke auto rijd je?
+                         <select name="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                        </select>
+                        <br><br>
                         E-mail: <input type="email" name="usermail" required> <br>  <br> <br>                             
                         <center> <input type="submit" value="Submit"> </center><br>       
                     </form>
